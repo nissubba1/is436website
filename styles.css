@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+/* .container-fluid {
+  margin-bottom: 40px;
+} */
+.container-xxl {
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+}
+
+.display-6 {
+  font-size: 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btn-lg {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn-lg:hover {
+  background-color: blue;
+  color: #fff;
+  border: none;
+}
+
+.mb-3 {
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.img-container,
+.course-desc {
+  text-align: center;
+  margin: 40px;
+}
+
+.umbc-track {
+  width: 600px;
+}
+
+.interest {
+  margin-top: 40px;
+  text-align: center;
+}
